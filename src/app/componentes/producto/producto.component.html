@@ -1,0 +1,6 @@
+<h1>{{this.miProducto.Titulo}}</h1>
+<input type="button" (click)="this.miProducto.MostrarPrecio()" />
+<input type="text" value="valor" >
+<input type="text" [value]="this.miProducto.Titulo" >
+<input type="text" [(ngModel)]="this.miProducto.Titulo" >
+
